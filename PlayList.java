@@ -83,9 +83,8 @@ class PlayList {
     public int indexOf(String title) {
 
         for (int i = 0; i < size; i++) {
-            //System.out.println("\nindexOf 4: " + str + " i = " + tracks[i].getTitle());
 
-            if (tracks[i].getTitle() == str)
+            if (tracks[i].getTitle() == title)
                 return i;
         }
         
